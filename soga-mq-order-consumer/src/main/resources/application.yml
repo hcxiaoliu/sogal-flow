@@ -1,0 +1,12 @@
+# 服务端口
+server:
+  port: 8066
+
+# 不配置的话就是默认本机ip 端口5672 账户guest/guest
+spring:
+  rabbitmq:
+    username: admin
+    password: admin
+    virtual-host: /
+    host: 192.168.142.110
+    port: 5672
